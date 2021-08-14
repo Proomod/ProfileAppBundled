@@ -1,0 +1,179 @@
+[
+    {
+        "title": "The Complete JavaScript Course 2021: From Zero to Expert!",
+        "instrucor": "Jonas Schmedtmann",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/851712_fc61_6.jpg",
+        "rating": 4.719417,
+        "route":"/completeJS",
+        "summary": [
+            "Become an advanced, confident, and modern JavaScript developer from scratch",
+            "Build 6 beautiful real-world projects for your portfolio (not boring toy apps)",
+            "Become job-ready by understanding how JavaScript really works behind the scenes"
+        ]
+    },
+    {
+        "title": "JavaScript: Understanding the Weird Parts",
+        "instrucor": "Anthony Alicea",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/364426_2991_6.jpg",
+        "rating": 4.734474,
+        "summary": [
+            "Grasp how Javascript works and it's fundamental concepts",
+            "Write solid, good Javascript code",
+            "Understand advanced concepts such as closures, prototypal inheritance, IIFEs, and much more."
+        ]
+    },
+    {
+        "title": "Modern JavaScript From The Beginning",
+        "instrucor": "Brad Traversy",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/1463348_52a4_2.jpg",
+        "rating": 4.6902175,
+        "summary": [
+            "Modular learning sections & 10 real world projects with pure JavaScript",
+            "Master the DOM (document object model) WITHOUT jQuery",
+            "Asynchronous programming with Ajax, Fetch API, Promises & Async / Await"
+        ]
+    },
+    {
+        "title": "JavaScript - The Complete Guide 2021 (Beginner + Advanced)",
+        "instrucor": "Academind by Maximilian Schwarzmüller",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/2508942_11d3_3.jpg",
+        "rating": 4.625496,
+        "summary": [
+            "JavaScript from scratch - beginner to advanced",
+            "All core features and concepts you need to know in modern JavaScript development",
+            "Everything you need to become a JavaScript expert and apply for JavaScript jobs"
+        ]
+    },
+    {
+        "title": "JavaScript Basics for Beginners",
+        "instrucor": "Mosh Hamedani",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/1743420_0062.jpg",
+        "rating": 4.563598,
+        "summary": [
+            "Understand the fundamental concepts in JavaScript",
+            "Learn problem-solving skills",
+            "Learn and apply the best practices"
+        ]
+    },
+    {
+        "title": "The Modern JavaScript Bootcamp",
+        "instrucor": "Andrew Mead",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/1470810_a8b0.jpg",
+        "rating": 4.7288556,
+        "summary": [
+            "Learn JavaScript by building three real-world web applications",
+            "Gain a deep understanding of how JavaScript works behind the scenes",
+            "Explore the latest cutting-edge features from ES6 and ES7"
+        ]
+    },
+    {
+        "title": "ES6 Javascript: The Complete Developer's Guide",
+        "instrucor": "Stephen Grider",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/861624_864d_2.jpg",
+        "rating": 4.558317,
+        "summary": [
+            "Learn how to apply each feature of ES6 in practical situations",
+            "Understand the major features of ES6",
+            "Have total mastery of generators"
+        ]
+    },
+    {
+        "title": "Javascript for Beginners Learn by Doing Practical Exercises",
+        "instrucor": "Edwin Diaz",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/405818_aa3f_3.jpg",
+        "rating": 4.467501,
+        "summary": [
+            "Learn to write JavaScript functions",
+            "Learn to write Javascript arrays",
+            "Learn to write  Javascript loops"
+        ]
+    },
+    {
+        "title": "JavaScript: The Advanced Concepts (2021)",
+        "instrucor": "Andrei Neagoie",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/1501104_967d_13.jpg",
+        "rating": 4.749656,
+        "summary": [
+            "Advanced JavaScript Practices",
+            "Object Oriented Programming",
+            "Functional Programming"
+        ]
+    },
+    {
+        "title": "The Modern Javascript Bootcamp Course (2021)",
+        "instrucor": "Colt Steele",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/2634490_e343_2.jpg",
+        "rating": 4.724627,
+        "summary": [
+            "Learn everything there is to know about Javascript - from scratch!",
+            "Build beautiful web apps to add to your portfolio",
+            "Get job ready with a deep understanding of the internals of JS"
+        ]
+    },
+    {
+        "title": "Modern JavaScript (Complete guide, from Novice to Ninja)",
+        "instrucor": "The Net Ninja (Shaun Pelling)",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/2201164_831a.jpg",
+        "rating": 4.786062,
+        "summary": [
+            "Learn how to program with modern JavaScript, from the very beginning to more advanced topics",
+            "Learn all about OOP (object-oriented programming) with JavaScript, working with prototypes & classes",
+            "Learn how to create real-world front-end applications with JavaScript (quizes, weather apps, chat rooms etc)"
+        ]
+    },
+    {
+        "title": "Advanced Javascript",
+        "instrucor": "Asim Hussain",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/670034_ce04_6.jpg",
+        "rating": 4.468514,
+        "summary": [
+            "Impress interviewers with knowledge about advanced JavaScript features",
+            "Confidently Interview other JavaScript candidates",
+            "Pass stage one JavaScript telephone interviews"
+        ]
+    },
+    {
+        "title": "JavaScript Beginner Bootcamp (2021)",
+        "instrucor": "Rob Merrill",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/860812_f16e_23.jpg",
+        "rating": 4.695652,
+        "summary": [
+            "Learn basics of JavaScript",
+            "Create Interactive Webpage and deploy to the web",
+            "Build projects as you learn concepts to get a taste of building applications on a small scale"
+        ]
+    },
+    {
+        "title": "20 Web Projects With Vanilla JavaScript",
+        "instrucor": "Brad Traversy",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/2782800_0b85.jpg",
+        "rating": 4.8085938,
+        "summary": [
+            "Build 20 Frontend Projects From Scratch",
+            "No JS or CSS Frameworks",
+            "Modern JavaScript (ES6+) - Arrows, Fetch, Promises, etc"
+        ]
+    },
+    {
+        "title": "Accelerated ES6 JavaScript Training",
+        "instrucor": "Maximilian Schwarzmüller",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/886614_68cc_2.jpg",
+        "rating": 4.6776314,
+        "summary": [
+            "Understand and Use the new Features and Concepts introduced with ES6",
+            "Get an Overview over the Language Additions and Changes",
+            "Confidently apply the new Syntax, new APIs and other new Features in Web Applications"
+        ]
+    },
+    {
+        "title": "50 Projects In 50 Days - HTML, CSS & JavaScript",
+        "instrucor": "Brad Traversy",
+        "imageUrl": "https://img-c.udemycdn.com/course/480x270/3671332_b86a.jpg",
+        "rating": 4.64804,
+        "summary": [
+            "Project based teaching to sharpen your HTML, CSS & JavaScript skills",
+            "Perfect for beginners looking for things to build unique projects in a short timeframe",
+            "Modern styling with flexbox, CSS animations, custom properties, etc"
+        ]
+    }
+]
