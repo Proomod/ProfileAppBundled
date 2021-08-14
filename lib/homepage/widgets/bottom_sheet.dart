@@ -174,8 +174,26 @@ class _ContactMeState extends State<ContactMe> {
   }
 }
 
-class FollowMe extends StatelessWidget {
+class FollowMe extends StatefulWidget {
   const FollowMe({Key? key}) : super(key: key);
+
+  @override
+  _FollowMeState createState() => _FollowMeState();
+}
+
+class _FollowMeState extends State<FollowMe> {
+  Future<void> _launchInBrowser(String url) async {
+    if (await canLaunch(url)) {
+      await launch(
+        url,
+        forceSafariVC: false,
+        forceWebView: false,
+        headers: <String, String>{'my_header_key': 'my_header_value'},
+      );
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -196,37 +214,48 @@ class FollowMe extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Container(
             height: MediaQuery.of(context).size.height / 15,
+            width: MediaQuery.of(context).size.width / 2,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              mainAxisSize: MainAxisSize.min,
-              children: const <Widget>[
-                Expanded(
-                  child: FaIcon(
+              children: <Widget>[
+                GestureDetector(
+                  onTap: () async {
+                    await _launchInBrowser('https://www.facebook.com/pr0mod/');
+                  },
+                  child: const FaIcon(
                     FontAwesomeIcons.facebook,
                     color: Colors.black,
                   ),
                 ),
-                Expanded(
-                  child: FaIcon(
+                GestureDetector(
+                  onTap: () async =>
+                      _launchInBrowser('https://github.com/proomod'),
+                  child: const FaIcon(
                     FontAwesomeIcons.github,
                     color: Colors.black,
                   ),
                 ),
-                Expanded(
-                  child: FaIcon(
-                    FontAwesomeIcons.twitter,
-                    color: Colors.black,
-                  ),
-                ),
-                Expanded(
-                  child: FaIcon(
+                // GestureDetector(
+                //   onTap: () {},
+                //   child: const FaIcon(
+                //     FontAwesomeIcons.twitter,
+                //     color: Colors.black,
+                //   ),
+                // ),
+                GestureDetector(
+                  onTap: () =>
+                      _launchInBrowser('https://www.instagram.com/i_promod/'),
+                  child: const FaIcon(
                     FontAwesomeIcons.instagram,
                     color: Colors.black,
                   ),
                 ),
-                Icon(
-                  Icons.public,
-                  color: Colors.black,
+                GestureDetector(
+                  onTap: () => _launchInBrowser('https://bhusalpramod.com.np'),
+                  child: const Icon(
+                    Icons.public,
+                    color: Colors.black,
+                  ),
                 ),
               ],
             ),
